@@ -26,6 +26,10 @@ int main() {
 	{
             printf("Grade C\n");
         }
+	else if(marks[i] >= 40) 
+	{
+            printf("Grade D (Pass)\n");
+        }
     }
 
     return 0;
