@@ -21,7 +21,11 @@ int main() {
 	else if(marks[i] >= 75)
 	{
             printf("Grade B\n");
-        }  
+        }
+	else if(marks[i] >= 60) 
+	{
+            printf("Grade C\n");
+        }
     }
 
     return 0;
