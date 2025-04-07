@@ -14,9 +14,14 @@ int main() {
     for(i = 0; i < 5; i++) {
         printf("Student %d: ", i + 1);
         
-        if(marks[i] >= 90) {
+        if(marks[i] >= 90) 
+	{
             printf("Grade A\n");
-        } 
+        }
+	else if(marks[i] >= 75)
+	{
+            printf("Grade B\n");
+        }  
     }
 
     return 0;
