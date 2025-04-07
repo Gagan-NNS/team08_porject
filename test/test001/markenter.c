@@ -30,6 +30,11 @@ int main() {
 	{
             printf("Grade D (Pass)\n");
         }
+	 else 
+	 {
+            printf("Fail\n");
+         }
+
     }
 
     return 0;
